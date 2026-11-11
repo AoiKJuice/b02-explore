@@ -1,0 +1,8 @@
+# 二进制文件：不做换行转换、不做文本 diff
+*.pt binary
+*.pkl binary
+*.pdf binary
+
+# 进 Linux 容器的文件固定用 LF
+*.sh text eol=lf
+Dockerfile text eol=lf

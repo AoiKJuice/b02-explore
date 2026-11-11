@@ -1,0 +1,31 @@
+# 生成的数据：python gen.py（csv/ answers/ site/）和 python gen.py --train 240（train/）可重建
+csv/
+answers/
+site/
+train/
+
+# 运行环境与缓存
+.venv/
+__pycache__/
+*.pyc
+
+# 本地设置
+.claude/settings.local.json
+
+# 官方资料（报名后下发，体积大）：原始压缩包和解压目录
+*.zip
+official/
+
+# 打包输出（make_package.py）
+dist/
+.sweepcache/
+
+# 缓存
+.ptcache/
+
+# 结果打包
+*.tar
+*.tar.gz
+
+# 主线快照包（用户另外拷来，不进公开仓库）
+/private/

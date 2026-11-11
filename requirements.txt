@@ -1,0 +1,7 @@
+# 运行/开发环境：Python 3.12（与赛题要求一致），项目内虚拟环境 .venv
+# 安装：python -m uv pip install --python .venv/Scripts/python.exe -r requirements.txt
+--extra-index-url https://download.pytorch.org/whl/cu128
+torch==2.11.0+cu128
+numpy==2.5.4
+scipy==1.18.1
+scikit-learn==1.9.1
